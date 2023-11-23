@@ -1,13 +1,15 @@
 {
   "name": "proofhub-tool",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a tool for proofhub time logging",
   "bin": {
     "proofhub-init": "bin/proofhub-init.js",
     "proofhub-log": "bin/proofhub-log.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "init": "node lib/proofhub-init.js",
+    "log": "node lib/proofhub-log.js"
   },
   "repository": {
     "type": "git",
