@@ -1,0 +1,25 @@
+{
+  "name": "proofhub-tool",
+  "version": "1.0.0",
+  "description": "a tool for proofhub time logging",
+  "bin": {
+    "proofhub-init": "bin/proofhub-init.js",
+    "proofhub-log": "bin/proofhub-log.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinjb32/proofhub-tool.git"
+  },
+  "keywords": [
+    "proofhub"
+  ],
+  "author": "Austin Jacob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinjb32/proofhub-tool/issues"
+  },
+  "homepage": "https://github.com/austinjb32/proofhub-tool#readme"
+}
