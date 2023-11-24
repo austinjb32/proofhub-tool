@@ -12,7 +12,8 @@
     "prebuild": "rm -rf dist types",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "tsc && ls ./dist && chmod +x ./dist/proofhub-init.js && chmod +x ./dist/proofhub-log.js"
+    "postinstall": "tsc && ls ./dist && chmod +x ./dist/proofhub-init.js && chmod +x ./dist/proofhub-log.js",
+    "publish": "npm publish --access public"
 
     
   },

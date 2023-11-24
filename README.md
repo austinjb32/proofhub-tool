@@ -97,10 +97,6 @@ Note:
 
 Contributions are welcome! Feel free to open issues or submit pull requests on the [GitHub repository](https://github.com/austinjb32/proofhub-tool).
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Disclaimer
 
 - **No Association with ProofHub:** This project is not affiliated with ProofHub in any capacity. The development of this tool is undertaken independently.
@@ -115,5 +111,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Use at Your Own Risk:** Users are advised to exercise caution and use the tool at their own discretion.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
