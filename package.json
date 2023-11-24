@@ -1,6 +1,6 @@
 {
   "name": "proofhub-tool",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A tool for ProofHub time logging",
   "main": "./dist/proofhub-init.js",
   "types": "./types/proofhub-init.d.ts ./types/proofhub-log.d.ts",
