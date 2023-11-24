@@ -1,17 +1,18 @@
 {
   "name": "proofhub-tool",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "a tool for proofhub time logging",
-  "main": "dist/proofhub-init.js",
-  "types": "types/proofhub-init.d.ts types/proofhub-log.d.ts",
+  "main": "./dist/proofhub-init.js",
+  "types": "./types/proofhub-init.d.ts ./types/proofhub-log.d.ts",
   "bin": {
-    "proofhub-init": "dist/proofhub-init.js",
-    "proofhub-log": "dist/proofhub-log.js"
+    "proofhub-init": "./dist/proofhub-init.js",
+    "proofhub-log": "./dist/proofhub-log.js"
   },
   "scripts": {
     "prebuild": "rm -rf dist types",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "chmod +x ./dist/*.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/austinjb32/proofhub-tool#readme",
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.2",
+    "path":"^0.12.7"
   }
 }
