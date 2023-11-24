@@ -50,6 +50,23 @@ npx proofhub-log
 
 Follow the prompts to select a Proofhub Timesheet, Todolist, Task, and Subtask, and log time for the selected entry.
 
+### Proofhub Time Logging- Setup
+
+First step, is to intialize the proofhub-tool inside project root, so please run  `proofhub-init` first:
+![Proofhub Image 1](blob/proofhub-1.png)
+
+Second step, Enter the details such as Proofhub Email and Proofhub API Key, then the project assigned to you will be displayed & upon completion and `proofhub.json` file will be created:
+![Proofhub Image 2](blob/proofhub-2.png)
+
+Third step, to log time in Proofhub, please run `proofhub-log`:
+![Proofhub Image 3](blob/proofhub-3.png)
+
+Fourth step, Select Timesheet, Todolist, Tasks, Subtasks(if there) & Enter description, status, hours, and mins to log time in proofhub:
+![Proofhub Image 4](blob/proofhub-4.png)
+
+Note:
+ - In Todolist, Tasks, Subtasks & status you have enter the no. of the title that needs to be selected.
+
 ## Requirements
 
 - Bash
